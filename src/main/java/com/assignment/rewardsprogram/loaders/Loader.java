@@ -34,7 +34,7 @@ public class Loader {
     TransactionRepository transactionRepository;
 
     @PostConstruct
-    public void loadDummyDate () {
+    public void loadDummyData () {
         loadUsersData();
         loadTransactionData();
     }
